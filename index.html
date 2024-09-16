@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Fonte Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Sevn Sports</title>
+</head>
+<body>
+    <header>        <!-- Navbar  -->
+        <nav class="navbar">
+            <p>SEVN ESPORTES <img src="./assets/bola.png" alt="bola"></p>
+        </nav>
+        <h1 class="title">Confira as rodadas do nosso campeonato fictício!</h1>
+    </header>
+
+    <main>        <!--  Main  -->
+        <div class="card-container">
+            <div class="card-container__navigation" id="round">
+                <div class="back" id="prevRound">
+                    <p>&lt</p>
+                </div>
+                <div class="rodada">
+                    <h2>Rodada de Jogos</h2>
+                    <p id="roundNumber">Rodada 1</p>
+                </div>
+                <div class="next" id="nextRound">
+                    <p>&gt</p>
+                </div>
+            </div>
+                        <!-- Cards -->
+            <div class="card-container__matches" id="matchesContainer">
+            </div>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

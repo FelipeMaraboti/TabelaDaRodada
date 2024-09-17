@@ -28,8 +28,9 @@ header .title {
     display:            flex;
     align-items:        center;
     justify-content:    center;
-    padding-top:        2.5rem;
-    font-size:          1.2rem;
+    margin:             2rem 2rem;
+    text-align:         center;
+    font-size:          1rem;
 }
 
 /*  Estilização do main e do Card */
@@ -83,7 +84,7 @@ main {
 }
 
 .card-container__navigation .rodada h2 {
-    font-size:          1rem;
+    font-size:          0.8rem;
     margin:             0 2rem;
 }
 

@@ -10,8 +10,8 @@
 .navbar {
     width:              100%;
     height:             4.75rem;
-    background-color: #33B667;
-    color:            #fff;
+    background-color:   #33B667;
+    color:              #fff;
     display:            flex;
     align-items:        center;
     justify-content:    center;
@@ -72,8 +72,8 @@ main {
     align-items:        center;
     justify-content:    center;
     font-weight:        bolder;
-    background-color: #33B667;
-    color:            #fff;
+    background-color:   #33B667;
+    color:              #fff;
 }
 
 .card-container__navigation .rodada {
@@ -119,7 +119,7 @@ main {
 }
 
 .card-container__matches .matches .versus {
-    color:            #d1d1d1;
+    color:              #d1d1d1;
 }
 
 .card-container__matches .matches .time {

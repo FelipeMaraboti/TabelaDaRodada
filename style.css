@@ -74,6 +74,7 @@ main {
     font-weight:        bolder;
     background-color:   #33B667;
     color:              #fff;
+    cursor:             pointer;
 }
 
 .card-container__navigation .rodada {

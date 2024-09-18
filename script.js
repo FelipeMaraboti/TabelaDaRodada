@@ -56,6 +56,22 @@ const renderGames = (roundData) => {
 
         matchesContainer.appendChild(gameDiv)
     });
+
+    // Atualiza a desativação dos botões de navegação
+    const prevButton = document.getElementById('prevRound');
+    const nextButton = document.getElementById('nextRound');
+
+    if (currentRound === 0) {
+        prevButton.style.visibility = 'hidden'; // Esconde o botão "anterior" se estiver na primeira rodada
+    } else {
+        prevButton.style.visibility = 'visible'; // Mostra o botão "anterior" se houver rodadas anteriores
+    }
+
+    if (currentRound === data.length - 1) {
+        nextButton.style.visibility = 'hidden'; // Esconde o botão "próximo" se estiver na última rodada
+    } else {
+        nextButton.style.visibility = 'visible'; // Mostra o botão "próximo" se houver rodadas futuras
+    }
 };
 
 const updateRound = (i) => {
